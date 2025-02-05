@@ -1,9 +1,11 @@
 #include <stdio.h>
-
-
 int main() {
-    double  a;
-    scanf("%lf",&a);
-    printf("You entered: %.4f",a);
-    return 0;
+    char a[50],c[50];
+    int b;
+    scanf("%s %d %s", &a ,&b ,&c);
+
+    printf("Name: %s\n",a);
+    printf("Age: %d\n",b);
+    printf("Hobby: %s\n",c);
+
 }
