@@ -7,4 +7,14 @@ int main() {
     float area = r*r*3.14;
     printf("Area: %.2f",area );
     
+
 }
+
+
+
+
+
+
+
+
+
