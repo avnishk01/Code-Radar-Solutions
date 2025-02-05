@@ -1,16 +1,14 @@
 #include <stdio.h>
-
-int main() {
-    int n1;
-    int n2;
-    scanf("%d%d",&n1,&n2);
-
-    if (n1%n2==0){
-        printf("Yes");
+int main(){
+    int a , b;
+    scanf("%d%d",&a,&b);
+    if ((a>0&&b>0) || (a<0&&b<0)){
+        printf("Same Sign");
     }
     else{
-        printf("No");
+        printf("Different Sign");
     }
-    
+
+
     return 0;
 }
